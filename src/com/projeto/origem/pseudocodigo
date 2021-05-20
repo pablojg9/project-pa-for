@@ -1,0 +1,30 @@
+Algoritmo "loopFor"
+
+Var
+
+input: caractere
+number: inteiro
+
+Inicio
+
+funcao leiaOrigem()
+       escreval("Coloque o número de 1 a 4")
+       leia(input)
+
+       number <- input
+
+       escolha number
+               caso 1 faca
+                    escreva("Código 1: Sul")
+               caso 2 faca
+                    escreva("Código 2: norte")
+               caso 3 faca
+                    escreva("Código 3: Leste")
+               caso 4 faca
+                    escreva("Código 4: Oeste")
+               caso number != number faca
+                    escreva("Código não encontrado")
+                    leiaOrigem()
+       fimescolha
+   fimfuncao
+Fimalgoritmo

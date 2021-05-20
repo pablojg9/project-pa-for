@@ -1,0 +1,22 @@
+Algoritmo "loopFor"
+
+Var
+tabuada: caractere
+cont: inteiro
+
+Inicio
+
+funcao calcularTabuada()
+       escreva("Coloque um número para calcular a tabuada")
+       leia(tabuada)
+
+       cont <- tabuada
+
+       escreval("A tabuada do ", cont, ": ", "\n")
+
+
+       para x: inteiro de 1 ate 10 passo 1 faca
+            escreval(x, " x ", cont, " = ", (x * cont), "\n")
+       fimpara
+fimfuncao
+Fimalgoritmo

@@ -1,0 +1,15 @@
+Algoritmo "loopFor"
+
+Var
+
+Inicio
+
+funcao loopFor()
+       escreva("A tabuada do ", cont, ": ", "\n")
+
+
+       para x: inteiro de 1 ate 10 passo 1 faca
+            escreval("numero", x)
+       fimpara
+fimfuncao
+Fimalgoritmo
