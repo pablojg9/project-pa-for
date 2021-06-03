@@ -1,6 +1,7 @@
 package com.projeto.tabuada;
 
 import javax.swing.JOptionPane;
+import java.util.WeakHashMap;
 
 public class Tabuada {
     StringBuilder stringBuilder = new StringBuilder();

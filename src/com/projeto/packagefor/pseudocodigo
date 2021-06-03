@@ -1,15 +1,19 @@
 Algoritmo "loopFor"
 
 Var
+contador: inteiro
 
 Inicio
 
 funcao loopFor()
-       escreva("A tabuada do ", cont, ": ", "\n")
 
+        contador <- 1
 
-       para x: inteiro de 1 ate 10 passo 1 faca
-            escreval("numero", x)
-       fimpara
+        repita
+            escreva("número ", contador)
+            contador++
+        ate
+            contador >= 10
+       fimrepita
 fimfuncao
 Fimalgoritmo
