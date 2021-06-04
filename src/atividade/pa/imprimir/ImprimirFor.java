@@ -1,6 +1,6 @@
 package atividade.pa.imprimir;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 public class ImprimirFor {
     public void imprimir() {
