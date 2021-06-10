@@ -1,22 +1,22 @@
 package atividade.pa.verificar;
 
-import javax.swing.JOptionPane;
+import java.util.Scanner;
 
 public class VerificarMaior {
 
     public void verificar() {
-        String input = JOptionPane.showInputDialog("Coloque um número: ");
+        Scanner scanner = new Scanner(System.in);
 
-        int verificarInput = Integer.parseInt(input);
+        System.out.println("Coloque um número: ");
+        int verificarInput = scanner.nextInt();
 
-        if (verificarInput >= 100) {
-            JOptionPane.showMessageDialog(null, "O seu número é maior que 100!");
-        } else {
-            JOptionPane.showMessageDialog(null, "O seu número é " + verificarInput
-                    + " e é menor que 100");
+        while (verificarInput < 100) {
+            System.out.println("O número é menor que 100");
+            verificarInput = scanner.nextInt();
+
         }
 
-
+        System.out.println("O número é maior ou igual que 100");
 
     }
 
