@@ -8,7 +8,7 @@ public class InverseClass {
     void inverso() {
         Scanner scanner = new Scanner(System.in);
 
-        int[] numero = new int[10];
+        float[] numero = new float[10];
 
         for (int counter = 0; counter < numero.length; counter++) {
             System.out.println("Coloque o " + (counter + 1)+ "º " + "número");
