@@ -4,8 +4,12 @@ import javax.swing.JOptionPane;
 
 public class WhileNome {
     public void nomeWhile() {
+
+        // Input que irá receber um texto
         String nome = JOptionPane.showInputDialog("Coloque o seu nome: ");
         JOptionPane.showMessageDialog(null, "Seu nome é: " + nome);
+
+        // Atribuindo confirm pra continuar o sair
         int confirm = JOptionPane.showConfirmDialog(null, "Você quer continuar? ");
 
         // YES == 0

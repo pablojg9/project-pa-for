@@ -14,7 +14,7 @@ public class Tabuada {
         stringBuilder.append("A tabuada do ").append(cont).append(":").append("\n ");
 
         for (int x = 1; x <= 10; x++) {
-            stringBuilder.append(x).append(" x ").append(cont).append(" = ").append(x * cont).append("\n");
+            stringBuilder.append(x + " x " + cont + " = " + (x * cont) + "\n");
         }
 
         JOptionPane.showMessageDialog(null, stringBuilder.toString());
