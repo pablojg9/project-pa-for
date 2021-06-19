@@ -1,7 +1,6 @@
 package atividade.pa.inverso;
 
 import java.util.Scanner;
-import java.util.function.DoubleToIntFunction;
 
 public class InverseClass {
 
