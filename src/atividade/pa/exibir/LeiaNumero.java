@@ -15,6 +15,7 @@ public class LeiaNumero {
         }
         System.out.println("Os número que você colocou são: ");
 
+        
         for (float posicaoArrayLoop : posicaoArray) {
             System.out.println("número: " + posicaoArrayLoop);
         }
